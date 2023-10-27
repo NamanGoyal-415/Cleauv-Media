@@ -117,7 +117,9 @@
     right: -11%;
     bottom: 0;
 }
-
+.gap-40{
+    gap: 40px;
+}
 .gap-41 {
     gap: 41px;
 }
@@ -135,8 +137,19 @@
     border: 1px solid var(--button-hover);
 }
 
-.gap-129 {
-    gap: 40px;
+.to-top {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    right: 40px;
+    bottom: 40px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 3;
 }
 
 .links-underline {
@@ -905,7 +918,7 @@
 }
 
 @media (min-width:1200px) {
-    .gap-129 {
+    .gap-40 {
         gap: 129px;
     }
 
