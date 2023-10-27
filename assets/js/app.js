@@ -20,10 +20,6 @@ $('.S2-slider').slick({
     arrow: false,
     responsive: [
         {
-            breakpoint: 9999,
-            settings: "unslick"
-        },
-        {
             breakpoint: 1200,
             settings: {
                 slidesToShow: 2,
