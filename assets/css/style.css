@@ -249,6 +249,10 @@
     padding-bottom: 155px;
 }
 
+.S3-img{
+    max-width: 734px;
+}
+
 .custom-container-1 {
     max-width: 1440px;
     margin-left: auto;

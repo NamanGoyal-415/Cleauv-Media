@@ -59,11 +59,10 @@ $('.S2-slider').slick({
 $('.S3-slider').slick({
     infinite: true,
     autoplay: true,
-    speed: 300,
+    speed: 100,
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
-    centerPadding: '400px',
     arrows: false,
     responsive: [
         {
